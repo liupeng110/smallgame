@@ -23,7 +23,7 @@ public class MainActivity extends Activity_Base {
 
     //获取验证码
    public void getverfiycode(View view){
-       Log.e("login","点击获取验证码");
+       Log.e("login","点击获取验证码"); 
 //       register();
        login();
    }
