@@ -1,4 +1,17 @@
 apply plugin: 'com.android.application'
+apply plugin: 'com.mob.sdk'
+
+MobSDK {
+    appKey "1f033a797d7c3"
+    appSecret "bf4a880981a5abf1e9a45067dd2dcbc0"
+    SMSSDK {}
+//    PaySDK {}
+    MobAPI {}
+    ShopSDK {}
+}
+MobSolution {
+    GrowSolution {}
+}
 
 android {
     compileSdkVersion 28
@@ -28,5 +41,6 @@ dependencies {
     implementation 'org.jetbrains:annotations-java5:15.0'
     implementation 'com.noober.backgorund:core:1.0.1'
     implementation 'org.xutils:xutils:3.5.0'
+    implementation 'com.github.liupeng110:Toasty:1.3.1'
 
 }

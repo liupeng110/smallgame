@@ -1,6 +1,7 @@
 package com.andlp.smallgame;
 
-import android.app.Application;
+
+import com.mob.MobApplication;
 
 import org.xutils.x;
 
@@ -8,7 +9,7 @@ import org.xutils.x;
  * 717219917@qq.com   2018/10/26-1:35 AM
  */
 
-public class MyApp extends Application {
+public class MyApp extends MobApplication {
 
     @Override
     public void onCreate() {

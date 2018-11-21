@@ -51,27 +51,21 @@
 
     <Button
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="40dp"
         android:text="获取验证码"
-        app:la1yout_constraintRight_toRightOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="128dp"
+        android:layout_marginTop="130dp"
         android:onClick="getverfiycode"
         android:gravity="center"
         android:padding="0dp"
         android:textColor="@android:color/white"
         android:textSize="15sp"
 
-        app:unpressed_color="#2b3b62"
-        app:pressed_color="#2b3b48"
-
-
-        app:corners_radius="20dp"
-        app:gradient_angle="0"
-        app:gradient_centerColor="#CD4F39"
-        app:gradient_endColor="#CD2626"
-        app:gradient_startColor="#CD5B45"
-        app:shape="rectangle"
+        app:stroke_color="#ffffff"
+        app:stroke_width="1dp"
+        app:corners_radius="30dp"
+        app:ripple_enable="true"
 
         tools:ignore="MissingPrefix" />
 
